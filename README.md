@@ -2,7 +2,7 @@
 
 End-to-end analysis of how **miraclib** affects immune-cell population frequencies in melanoma clinical trial patients.
 
-Dashboard link: [to be deployed]
+Dashboard link: [https://huggingface.co/spaces/arshiariaz/teiko-dashboard](https://huggingface.co/spaces/arshiariaz/teiko-dashboard)
 
 ---
 

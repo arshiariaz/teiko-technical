@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: teiko-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python load_data.py && python analysis.py
+    startCommand: gunicorn app_dash:server --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0

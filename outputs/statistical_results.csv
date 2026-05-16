@@ -1,0 +1,6 @@
+population,mean_responders,mean_nonresponders,p_value,significant
+B Cell,9.7976,9.9963,0.055672,False
+CD8 T Cell,24.8819,24.9439,0.639058,False
+CD4 T Cell,30.5378,29.9023,0.01334,True
+NK Cell,14.8409,15.0732,0.12106,False
+Monocyte,19.9418,20.0843,0.163126,False
